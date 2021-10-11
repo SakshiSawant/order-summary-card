@@ -14,12 +14,13 @@ body{
 }
 
 .card{
-    border: 2px solid #000000;
-    margin: 5em 5rem;
+    /* border: 2px solid #000000; */
+    margin: 15em auto;
     width: 25%;
     border-radius: 4rem;
     background-color: #ffffff;
     /* padding: 2em; */
+    box-shadow: 0.1rem 0.1rem 2rem grey;
 }
 .card-img{
     width: 100%;
@@ -41,10 +42,40 @@ p{
     margin: 0em 2.5em;
     line-height: 1.5em;
     color: #706f6f;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .attribution{
     bottom: 0px;
     margin-bottom: 0;
+}
+
+.desc{
+    background-color: rgb(224, 219, 219);
+    margin: 1.5em 1.5em;
+    padding: 0.8em;
+    border-radius: 2.5em;
+}
+
+h3{
+    display: inline;
+    position: absolute;
+    font-size: 2.2rem;
+    margin-left: 1em;
+}
+.price{
+    position: relative;
+    text-align: left;
+    display: inline;
+    margin-left: 1em;
+    padding-top: 0;
+}
+a{
+    font-size: 1.8rem;
+    display: inline;
+    position: relative;
+    text-align: right;
+    float: right;
+    padding: 1em;
+    color: hsl(228, 45%, 44%);
 }
