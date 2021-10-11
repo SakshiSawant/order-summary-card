@@ -19,8 +19,8 @@ body{
     width: 25%;
     border-radius: 4rem;
     background-color: #ffffff;
-    /* padding: 2em; */
     box-shadow: 0.1rem 0.1rem 2rem grey;
+    padding-bottom: 0.6em;
 }
 .card-img{
     width: 100%;
@@ -51,10 +51,10 @@ p{
 }
 
 .desc{
-    background-color: rgb(224, 219, 219);
-    margin: 1.5em 1.5em;
+    background-color: rgb(240, 238, 238);
+    margin: 1.5em 1.9em;
     padding: 0.8em;
-    border-radius: 2.5em;
+    border-radius: 2em;
 }
 
 h3{
@@ -70,12 +70,31 @@ h3{
     margin-left: 1em;
     padding-top: 0;
 }
-a{
+.change{
     font-size: 1.8rem;
     display: inline;
     position: relative;
     text-align: right;
     float: right;
     padding: 1em;
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 51%, 38%);
+}
+.btn{
+    display: block;
+    font-size: 1.8rem;
+    padding: 0.8em;
+    margin: 1.8em auto;
+    width: 80%;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.8em;
+    box-shadow: 0.1rem 0.1rem 1rem rgb(68, 68, 68);
+}
+.pay-btn{
+    background-color: hsl(228, 51%, 38%);
+    color: #ffffff;  
+}
+.btn-btn{
+    background-color: #ffffff;
+    color: #000000;
 }
